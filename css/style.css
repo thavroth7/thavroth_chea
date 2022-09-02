@@ -1,0 +1,757 @@
+body{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        background-color: rgb(219, 218, 218);
+}
+.sidebar-left{
+    background-color: rgb(252, 177, 229);
+    display: flex;
+    flex-direction: column;
+    grid-column: 1;
+
+   
+}
+.aside{
+    display: flex;
+    align-items: center;
+    margin: 8px;
+   
+}
+.sidebar-left .title{
+    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.sidebar-left span{
+    margin-left: 10px;
+    
+}
+.main-title{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.aside-footer{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-image: url(../image/bts.jpg);
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+}
+.aside-footer .text{
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 8px;
+    display: flex;
+   
+   
+}
+.aside-footer button{
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 50px;
+    
+}
+.aside-footer .caiption{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    grid-column: 2/6;
+    
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.head button{
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin: 3px;
+   border: none;
+   border-radius: 5px;
+   
+   
+}
+.head input{
+    display: flex;
+    flex: 1;
+    border-radius: 5px;
+  
+}
+.main-box{
+    display: flex;
+    margin-left: 15px;
+}
+.main-box .box{
+    padding: 8px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+}
+.main-head .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.title .main-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-head button{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(253, 253, 253);
+    
+}
+.main-center{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 240px;
+    gap: 5px;
+    
+}
+.main-center{
+    margin: 10px;
+}
+.main-center .video-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(255, 104, 235);
+    margin: 5px;
+    border-radius: 10px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+    background-image: url(../image/bts-boy.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin: 5px;
+}
+.star{
+    color: white;
+}
+.kpop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+    background-image: url(../image/blackpink.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin: 5px;
+}
+.suga{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+    background-image: url(../image/itzy.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin: 5px;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+    background-image: url(../image/bts-5.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.btt .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+.abc .material-icons{
+    font-size: small;
+    margin-left: 5px;
+}
+.abc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.text span{
+    font-size: small;
+}
+.top .time{
+    margin: 5px;
+    padding: 3px;
+   
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: smaller;
+    margin-left: 85px;
+}
+.top .play{
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+}
+.play button{
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    font-size: smaller;
+}
+.sub-title{
+    margin: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+.box .image img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.main-box .box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 11%;
+    padding: 5px;
+    
+  
+}
+
+.bl span{
+    font-size: smaller;
+}
+.main-footer .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.button .submit{
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 210px;
+    gap: 5px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    height: 40vh;
+    
+    
+}
+.footer-container .profile{
+    font-size: smaller;
+}
+.profile img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+.profile-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(167, 73, 255);
+    border-radius: 10px;
+    margin: 5px;
+    
+    
+}
+.main-profile{
+    display: flex;
+    margin: 5px;
+    
+}
+.icon .material-icons{
+    font-size: small;
+}
+.footer-text{
+    margin-left: 5px;
+}
+.footer-text .text{
+    display: flex;
+    flex-direction: row;
+   
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.footer-container span{
+    margin-right: 5px;
+}
+.number{
+    margin: 5px;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-text .text span{
+    font-size: small;
+}
+.main-footer .title{
+    margin: 10px;
+}
+
+.sidebar-right{
+    display: flex;
+    flex-direction: column;
+  
+}
+.sidebar-head img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+.sidebar-head{
+    display: flex;
+    align-items: center;
+ 
+    
+}
+.sidebar-center{
+    margin: 5px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20vh;
+    display: flex;
+    
+   
+}
+strong{
+    color: orange;
+}
+
+.sidebar-center .text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidebar-center .span{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    align-items: center;
+}
+.sidebar-center .button{
+    background-color: rgb(197, 196, 196);
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+.sidebar-center .title{
+    font-size: larger;
+    font-weight: bold;
+}
+.sidebar-center .text span{
+    font-size: 15px;
+}
+.sidebar-right .caiption{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.sibar-main, .sidebar-footer{
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+   
+}
+.name{
+    font-size: medium;
+}
+.video-container{
+    display: flex;
+    flex-direction: column;
+}
+.video-container .main-video{
+    background-color: rgb(255, 104, 235);
+    /* width: 50%; */
+    font-size: x-small;
+    margin: 5px;
+    border-radius: 5px;
+}
+.main-video .material-icons{
+    font-size: small;
+}
+.main-video .video-box{
+    background-image: url(../image/BTS.png);
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+    height: 10vh;
+    border-radius: 5px;
+}
+.main-video .title, .main-video .text{
+    margin: 5px;
+}
+.main-video .video-box{
+    display: flex;
+    align-items: flex-end;
+}
+.video-box .material-icons{
+    margin: 5px;
+}
+.video-container{
+    display: flex;
+    flex-direction: row;
+}
+.sidebar-right{
+    display: flex;
+    flex-direction: column;
+   
+}
+.sidebar-head{
+    margin: 15px;
+}
+.caiption button{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(253, 253, 253);
+}
+@media  (max-width : 800px){
+    body{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+       
+    }
+    .sidebar-left{
+        grid-column: 1;
+        display: flex;
+        flex-direction: column;
+        font-size: smaller;
+        
+    }
+
+    .aside{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .sidebar-left .title, .main-title{
+        font-size: 10px;
+    }
+    .aside-footer{
+        display: none;
+    }
+    .container{
+        grid-column: 2/6;
+        
+    }
+    .head{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .head button {
+        font-size: x-small;
+        padding: 0px;
+        width: 60%;
+        margin: 5px;
+    }
+    .head input{
+        width: 100%;
+    }
+    .title .main-title{
+        font-size: 13px;
+    }
+    a{
+        font-size: smaller;
+    }
+    .main-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-box .box{
+        width: 35%;
+      
+    }
+    .main-box .box span{
+        font-size: small;
+    }
+    .box .image img{
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+    }
+    .main-center{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+       
+    }
+    .top, .kpop, .suga,.txt{
+        height: 20vh;
+        font-size: smaller;
+        
+    }
+    .video-box{
+        display: flex;
+        width: 45%;
+        height: 37vh;
+        margin: 2px;
+
+    }
+    .btt .sub-title{
+        font-size: smaller;
+    }
+    .play button{
+        font-size: 10px;
+    }
+    .button .submit{
+        font-size: x-small;
+    }
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        
+    }
+     .footer-text .text span{
+        font-size: 8px;
+    }
+    .icon .material-icons{
+        font-size: smaller;
+    }
+    .main-profile img{
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+    }
+    .main-profile{
+        margin: 3px;
+    }
+    .profile{
+        
+        margin: 0px;
+        
+    }
+    .number, .name{
+        font-size: x-small;
+    }
+    .footer-container{
+        background-color: white;
+        height: 100%;
+    }
+    .sidebar-right{
+        grid-column: 6/7;
+       
+        display: flex;
+        flex-direction: column;
+    }
+    .sidebar-head{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .roth{
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .sidebar-center {
+        margin-top: 10px;
+    }
+    .sidebar-center .text, .sidebar-center .title{
+        font-size: 10px;
+    }
+    .sidebar-center .text span{
+        font-size: smaller;
+    }
+    .sidebar-center .span span{
+        font-size: x-small;
+    }
+    .main-video {
+        width: 100%;
+       
+        
+    }
+    
+    .main-video span{
+        font-size: 8px;
+    }
+    .main-video .material-icons{
+        font-size: 8px;
+    }
+    .main-video .video-box{
+        width: 80%;
+        height: 10vh;
+    }
+    .roth .material-icons{
+        margin-right: 10px;
+    }
+   
+}
+@media  (max-width : 500px){
+    body{
+        display: grid;
+       grid-template-columns: repeat(1,1fr);
+        
+    }
+    .sidebar-left{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        grid-row: 3/4;
+        background-color: white;
+        height: 10vh;
+    }
+    .container{
+        grid-column: 1;
+        
+    }
+    .sidebar-right{
+        grid-row:1/2;
+        grid-column: 1;
+        
+    }
+    .sidebar-head{
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+    }
+    .sidebar-head .button{
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+    .sidebar-left .title, .sidebar-left span, .sidebar-left .main-title{
+        display: none;
+    }
+    
+    .aside-footer{
+        display: none;
+    }
+    .head button{
+        display: none;
+    }
+    /* .material-icons{
+        font-size: small;
+    } */
+    span{
+        font-size: small;
+    }
+    .name{
+        font-size: small;
+    }
+    .sidebar-center, .sidebar-footer{
+        display: none;
+    }
+    .sidebar-right .caiption{
+        display: none;
+    }
+    .sidebar-footer{
+        display: none;
+    }
+    .sidebar-right .sibar-main{
+        display: none;
+    }
+    .sidebar-head{
+        width: 95%;
+    }
+    .head input{
+        width: 100%;
+        padding: 10px;
+    }
+    .main-head .title{
+        width: 90%;
+        
+    }
+    .main-head .title .main-title, .main-footer .title .main-title{
+        font-size: large;
+    }
+    .sidebar-head{
+        background-color: rgb(253, 78, 107);
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .sidebar-left{
+        width: 100%;
+    }
+    .sidebar-left .material-icons{
+        font-size: 18px;
+    }
+    .button .submit{
+        background-color: blue;
+        color: white;
+        font-size: small;
+        margin: 5px;
+    }
+    .footer-text .text span{
+        font-size: small;
+    }
+    .main-profile img{
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+    }
+    .name, .number{
+        font-size: medium;
+    }
+    .profile{
+        
+        width: 100%;
+    }
+}
